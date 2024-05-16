@@ -32,7 +32,7 @@ AT91BOOTSTRAP_CONFIG_sama5d2-ptc-ek-sd ??= "${AT91BOOTSTRAP_MACHINE}sd_uboot"
 AT91BOOTSTRAP_CONFIG_sama5d27-som1-ek ??= "${AT91BOOTSTRAP_MACHINE}qspi_uboot"
 AT91BOOTSTRAP_CONFIG_sama5d27-som1-ek-sd ??= "${AT91BOOTSTRAP_MACHINE}sd_uboot"
 AT91BOOTSTRAP_CONFIG_rugged-board-a5d2x ??= "${AT91BOOTSTRAP_MACHINE}qspi_uboot"
-AT91BOOTSTRAP_CONFIG_rugged-board-a5d2x-sd1 ??= "${rugged-board-a5d2x-sd1}sd1_uboot"
+AT91BOOTSTRAP_CONFIG_rugged-board-a5d2x-sd1 ??= "${AT91BOOTSTRAP_MACHINE}sd1_uboot"
 
 
 AT91BOOTSTRAP_TARGET ??= "${AT91BOOTSTRAP_CONFIG}_defconfig"
